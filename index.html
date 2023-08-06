@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title> Shopy </title>
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <script src=" https://use.fontawesome.com/4c72f51142.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,800,900" rel="stylesheet">
+</head>
+<body>
+<!-- MINI-HEADER   -->
+    <div class="container-fluid mini-header-border">
+        <div class="container mini-header">
+            <div class="row">
+                <div class="contacts col-xs-6">
+                    <p>
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i> info@shopy.com
+                        <i class="fa fa-mobile" aria-hidden="true"></i> 453 - 5553 - 996
+                    </p>
+                </div>
+                <div class="social-icons d-none d-sm-block col-xs-2 ml-auto">
+                    <a href="#"><i class="fa fa-facebook social-icon" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-twitter social-icon" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-google social-icon" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-instagram social-icon" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--  MAIN-MENU  -->
+    <div class="container-fluid main-menu-border">
+        <div class="container main-menu">
+            <nav class="navbar navbar-expand-lg navbar-light">
+              <a class="navbar-brand" href="#"><img src="images/Logo.png"></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Product</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Hot Deals</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contacts</a>
+                  </li>
+                </ul>
+                <div class="main-menu-icons">
+                    <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-user" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </nav>
+        </div>
+    </div>
+<!--  FEATURED  -->
+    <div class="container-fluid featured">
+        <div class="container">
+            <div class="row featured-content">
+                <div class="btn-group-vertical vertical-tab col-sm-1">
+                    <button href="#" class="tablinks d-none d-sm-block" onclick="openContent(event, 'Text1')"></button>
+                    <button href="#" class="tablinks d-none d-sm-block" id="defaultOpen" onclick="openContent(event, 'Text2')"></button>
+                    <button href="#" class="tablinks d-none d-sm-block" onclick="openContent(event, 'Text3')"></button>
+                </div>
+                <div class="content tabcontent col-sm-11" id="Text1">
+                    <h1>FULL WINTER KIT - 1</h1>
+                    <h5>Half Jacket + Skinny Trousers + Boot Leather</h5>
+                    <p>Lorem ipsum sit amet ...</p>
+                    <h6>Price: 120$ <span class="order-featured"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Order Now</span></h6>
+                </div>
+                <div class="content tabcontent col-sm-11" id="Text2">
+                    <h1>FULL WINTER KIT - 2</h1>
+                    <h5>Half Jacket + Skinny Trousers + Boot Leather</h5>
+                    <p>Lorem ipsum sit amet ...</p>
+                    <h6>Price: 120$ <span class="order-featured" href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Order Now</span></h6>
+                </div>
+                <div class="content tabcontent col-sm-11" id="Text3">
+                    <h1>FULL WINTER KIT - 3</h1>
+                    <h5>Half Jacket + Skinny Trousers + Boot Leather</h5>
+                    <p>Lorem ipsum sit amet ...</p>
+                    <h6>Price: 120$ <span class="order-featured"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Order Now</span></h6>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--  ARRIVALS  -->
+    <div class="container arrivals">
+        <h2>NEW <span>ARRIVALS</span></h2>
+        <p>Lorem ipsum sit amet ...</p>
+        <div class="products row">
+            <div class="col-lg-3 col-md-6">
+                <div class="product-arrivals">
+                    <img src="images/product-arrivals.png">
+                    <h5>Reebok Track Jacket</h5>
+                    <h6>100$</h6>
+                    <div class="overlay">
+                        <img src="images/product-arrivals.png">
+                        <h2>Reebok Track Jacket</h2>
+                        <p>sizes : s - m - l - xl</p>
+                        <a href="#"><i class="fa fa-circle circle1" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-circle circle2" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-circle circle3" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-circle circle4" aria-hidden="true"></i></a>
+                        <hr>
+                        <div class="bottom-overlay">
+                            <a href="#"><i class="fa fa-globe" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-cart-plus" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="product-arrivals">
+                    <img src="images/product-arrivals.png">
+                    <h5>Reebok Track Jacket</h5>
+                    <h6>100$</h6>
+                    <div class="overlay">
+                        <img src="images/product-arrivals.png">
+                        <h2>Reebok Track Jacket</h2>
+                        <p>sizes : s - m - l - xl</p>
+                        <a href="#"><i class="fa fa-circle circle1" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-circle circle2" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-circle circle3" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-circle circle4" aria-hidden="true"></i></a>
+                        <hr>
+                        <div class="bottom-overlay">
+                            <a href="#"><i class="fa fa-globe" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-cart-plus" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="product-arrivals">
+                    <img src="images/product-arrivals.png">
+                    <h5>Reebok Track Jacket</h5>
+                    <h6>100$</h6>
+                    <div class="overlay">
+                        <img src="images/product-arrivals.png">
+                        <h2>Reebok Track Jacket</h2>
+                        <p>sizes : s - m - l - xl</p>
+                        <a href="#"><i class="fa fa-circle circle1" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-circle circle2" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-circle circle3" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-circle circle4" aria-hidden="true"></i></a>
+                        <hr>
+                        <div class="bottom-overlay">
+                            <a href="#"><i class="fa fa-globe" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-cart-plus" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="product-arrivals">
+                    <img src="images/product-arrivals.png">
+                    <h5>Reebok Track Jacket</h5>
+                    <h6>100$</h6>
+                    <div class="overlay">
+                        <img src="images/product-arrivals.png">
+                        <h2>Reebok Track Jacket</h2>
+                        <p>sizes : s - m - l - xl</p>
+                        <div class="circles">
+                            <a href="#"><i class="fa fa-circle circle1" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-circle circle2" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-circle circle3" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-circle circle4" aria-hidden="true"></i></a>
+                        </div>
+                        <hr>
+                        <div class="bottom-overlay">
+                            <a href="#"><i class="fa fa-globe" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-cart-plus" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6" style="display: none">
+                <div class="product-arrivals">
+                    <img src="images/product-arrivals.png">
+                    <h5>Reebok Track Jacket</h5>
+                    <h6>100$</h6>
+                    <div class="overlay">
+                        <img src="images/product-arrivals.png">
+                        <h2>Reebok Track Jacket</h2>
+                        <p>sizes : s - m - l - xl</p>
+                        <a href="#"><i class="fa fa-circle circle1" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-circle circle2" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-circle circle3" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-circle circle4" aria-hidden="true"></i></a>
+                        <hr>
+                        <div class="bottom-overlay">
+                            <a href="#"><i class="fa fa-globe" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-cart-plus" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6" style="display: none">
+                <div class="product-arrivals">
+                    <img src="images/product-arrivals.png">
+                    <h5>Reebok Track Jacket</h5>
+                    <h6>100$</h6>
+                    <div class="overlay">
+                        <img src="images/product-arrivals.png">
+                        <h2>Reebok Track Jacket</h2>
+                        <p>sizes : s - m - l - xl</p>
+                        <a href="#"><i class="fa fa-circle circle1" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-circle circle2" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-circle circle3" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-circle circle4" aria-hidden="true"></i></a>
+                        <hr>
+                        <div class="bottom-overlay">
+                            <a href="#"><i class="fa fa-globe" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-cart-plus" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6" style="display: none">
+                <div class="product-arrivals">
+                    <img src="images/product-arrivals.png">
+                    <h5>Reebok Track Jacket</h5>
+                    <h6>100$</h6>
+                    <div class="overlay">
+                        <img src="images/product-arrivals.png">
+                        <h2>Reebok Track Jacket</h2>
+                        <p>sizes : s - m - l - xl</p>
+                        <a href="#"><i class="fa fa-circle circle1" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-circle circle2" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-circle circle3" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-circle circle4" aria-hidden="true"></i></a>
+                        <hr>
+                        <div class="bottom-overlay">
+                            <a href="#"><i class="fa fa-globe" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-cart-plus" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6" style="display: none">
+                <div class="product-arrivals">
+                    <img src="images/product-arrivals.png">
+                    <h5>Reebok Track Jacket</h5>
+                    <h6>100$</h6>
+                    <div class="overlay">
+                        <img src="images/product-arrivals.png">
+                        <h2>Reebok Track Jacket</h2>
+                        <p>sizes : s - m - l - xl</p>
+                        <a href="#"><i class="fa fa-circle circle1" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-circle circle2" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-circle circle3" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-circle circle4" aria-hidden="true"></i></a>
+                        <hr>
+                        <div class="bottom-overlay">
+                            <a href="#"><i class="fa fa-globe" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-cart-plus" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6" style="display: none">
+                <div class="product-arrivals">
+                    <img src="images/product-arrivals.png">
+                    <h5>Reebok Track Jacket</h5>
+                    <h6>100$</h6>
+                    <div class="overlay">
+                        <img src="images/product-arrivals.png">
+                        <h2>Reebok Track Jacket</h2>
+                        <p>sizes : s - m - l - xl</p>
+                        <a href="#"><i class="fa fa-circle circle1" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-circle circle2" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-circle circle3" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-circle circle4" aria-hidden="true"></i></a>
+                        <hr>
+                        <div class="bottom-overlay">
+                            <a href="#"><i class="fa fa-globe" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-cart-plus" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6" style="display: none">
+                <div class="product-arrivals">
+                    <img src="images/product-arrivals.png">
+                    <h5>Reebok Track Jacket</h5>
+                    <h6>100$</h6>
+                    <div class="overlay">
+                        <img src="images/product-arrivals.png">
+                        <h2>Reebok Track Jacket</h2>
+                        <p>sizes : s - m - l - xl</p>
+                        <a href="#"><i class="fa fa-circle circle1" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-circle circle2" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-circle circle3" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-circle circle4" aria-hidden="true"></i></a>
+                        <hr>
+                        <div class="bottom-overlay">
+                            <a href="#"><i class="fa fa-globe" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-cart-plus" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6" style="display: none">
+                <div class="product-arrivals">
+                    <img src="images/product-arrivals.png">
+                    <h5>Reebok Track Jacket</h5>
+                    <h6>100$</h6>
+                    <div class="overlay">
+                        <img src="images/product-arrivals.png">
+                        <h2>Reebok Track Jacket</h2>
+                        <p>sizes : s - m - l - xl</p>
+                        <a href="#"><i class="fa fa-circle circle1" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-circle circle2" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-circle circle3" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-circle circle4" aria-hidden="true"></i></a>
+                        <hr>
+                        <div class="bottom-overlay">
+                            <a href="#"><i class="fa fa-globe" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-cart-plus" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6" style="display: none">
+                <div class="product-arrivals">
+                    <img src="images/product-arrivals.png">
+                    <h5>Reebok Track Jacket</h5>
+                    <h6>100$</h6>
+                    <div class="overlay">
+                        <img src="images/product-arrivals.png">
+                        <h2>Reebok Track Jacket</h2>
+                        <p>sizes : s - m - l - xl</p>
+                        <a href="#"><i class="fa fa-circle circle1" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-circle circle2" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-circle circle3" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-circle circle4" aria-hidden="true"></i></a>
+                        <hr>
+                        <div class="bottom-overlay">
+                            <a href="#"><i class="fa fa-globe" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-cart-plus" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button href="#" class="btn btn-block btn-more">. . .</button>
+    </div>
+<!--  ADS  -->
+    <div class="container ads">
+        <div class="row ad-sale">
+            <div class="col-md-8">
+                <div class="sale d-none d-sm-block">
+                    <div class="row">
+                        <div class="col-sm-2 ml-auto">
+                            <img src="images/sale.png">
+                        </div>
+                        <div class="col-sm-6">
+                            <h4>FULL WINTER KIT</h4>
+                            <p>Half Jacket + Skiny Trousers + Boot Leather</p>
+                        </div>
+                        <hr>
+                        <div class="col-sm-3">
+                        <h5><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i> 120<span>$</span></a></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="ad">
+                    <h4>adv <span>area</span></h4>
+                    <p>470 x 100</p>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--  BEST SALES  -->
+    <div class="container sales">
+        <h2><span>BEST</span> SALES</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+        <div class="row">
+            <div class="col-lg-4 col-md-7 col-sm-9 saleProduct">
+                <div class="product-sales col-12">
+                    <div class="row">
+                        <img class="col-xs-3" src="images/product-bestsellers.png">
+                        <hr>
+                        <div class="sales-text col-xs-6">
+                            <h5 class="xs">Reebok Track Jacket</h5>
+                            <h6>
+                                <span>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star last-star" aria-hidden="true"></i>
+                                </span>
+                                100$
+                            </h6>
+                        </div>
+                        <div class="sales-overlay">
+                            <div class="row">
+                                <img class="col-xs-3" src="images/product-bestsellers.png">
+                                <hr>
+                                <div class="sales-text col-xs-6">
+                                    <h5>Reebok Track Jacket</h5>
+                                    <a href="#">
+                                        <h6>
+                                            <span>
+                                                <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                            </span>
+                                            add to cart
+                                        </h6>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-7 col-sm-9 saleProduct">
+                <div class="product-sales col-12">
+                    <div class="row">
+                        <img class="col-xs-3" src="images/product-bestsellers.png">
+                        <hr>
+                        <div class="sales-text col-xs-6">
+                            <h5>Reebok Track Jacket</h5>
+                            <h6>
+                                <span>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star last-star" aria-hidden="true"></i>
+                                </span>
+                                100$
+                            </h6>
+                        </div>
+                        <div class="sales-overlay">
+                            <div class="row">
+                                <img class="col-xs-3" src="images/product-bestsellers.png">
+                                <hr>
+                                <div class="sales-text col-xs-6">
+                                    <h5>Reebok Track Jacket</h5>
+                                    <a href="#">
+                                        <h6>
+                                            <span>
+                                                <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                            </span>
+                                            add to cart
+                                        </h6>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-7 col-sm-9 saleProduct">
+                <div class="product-sales col-12">
+                    <div class="row">
+                        <img class="col-xs-3" src="images/product-bestsellers.png">
+                        <hr>
+                        <div class="sales-text col-xs-6">
+                            <h5>Reebok Track Jacket</h5>
+                            <h6>
+                                <span>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star last-star" aria-hidden="true"></i>
+                                </span>
+                                100$
+                            </h6>
+                        </div>
+                        <div class="sales-overlay">
+                            <div class="row">
+                                <img class="col-xs-3" src="images/product-bestsellers.png">
+                                <hr>
+                                <div class="sales-text col-xs-6">
+                                    <h5>Reebok Track Jacket</h5>
+                                    <a href="#">
+                                        <h6>
+                                            <span>
+                                                <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                            </span>
+                                            add to cart
+                                        </h6>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--  NEWSLETTER  -->
+    <div class="container news">
+        <div class="row">
+            <div class="col-lg-7 col-md-12">
+                <div class="newsletter">
+                    <div class="row">
+                        <h4>NEWS LETTER <span>join us now to get all news and special offers</span></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-12">
+                <div class="join-us">
+                    <div class="row">
+                        <div class="join-us-text">
+                            <i class="fa fa-envelope-o ml-auto" aria-hidden="true"></i>
+                            <input type="email" placeholder="type your email">
+                            <button href="#" type="submit" class="btn btn-lg">join us</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--  FOOTER  -->
+    <div class="container-fluid footer-bg">
+        <div class="container footer">
+            <div class="row">
+                <div class="col-lg-3 logo">
+                    <img src="images/Logo.png">
+                    <p>shopy c 2015. your copy right here</p>
+                </div>
+                <ul class="col-lg-2 ml-auto">
+                    <a href="#"><li>about us</li></a>
+                    <a href="#"><li>contact us</li></a>
+                    <a href="#"><li>support</li></a>
+                </ul>
+                <ul class="col-lg-2">
+                    <a href="#"><li>our feed</li></a>
+                    <a href="#"><li>terms and conditions</li></a>
+                    <a href="#"><li>our privacy</li></a>
+                </ul>
+                <ul class="col-lg-2">
+                    <a href="#"><li>join us</li></a>
+                    <a href="#"><li>live support</li></a>
+                </ul>
+                <div class="col-lg-2 payment">
+                    <h4>Payment Methods</h4>
+                    <img src="images/credit-cards.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/ulg/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script src="featured.js"></script>
+    <script src="more-button.js"></script>
+</body>
+</html>
